@@ -1,0 +1,529 @@
+.workshop-home-container {
+    background-image: linear-gradient(to right, #056a67, #004848);
+    padding: 12% 0 140px;
+    background-image: linear-gradient(to right, #056a67, #004848);
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .workshop-home-container:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .workshop-home-container:after {
+    content: "";
+    position: absolute;
+    /* bottom: 17%; */
+    bottom: -38%;
+    right: -6%;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    /* -webkit-transform: scale(2); */
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+  .workshop-container {
+    /* margin-top: 80px; */
+    position: relative;
+    z-index: 9;
+  }
+  
+  .main-title {
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    font-style: normal;
+    border-radius: 5px;
+    padding: 13px 0 8px;
+    width: 150px;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .workshop-container h2 {
+    max-width: 700px;
+  }
+  
+  .workshop-container.pattern3 {
+    top: -73%;
+    left: -30%;
+    width: 24%;
+    position: absolute;
+    filter: brightness(100);
+  }
+  .WorkShop-img-container {
+    text-align: center;
+    color: #fff;
+    /* font-size: 48px;
+      font-weight: 800;
+      font-family: Gilroy; */
+  }
+  .workshop-content h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Gilroy;
+    max-width: none;
+  }
+  .workshop-content div {
+    display: flex;
+    justify-content: center;
+  }
+  .workshop-content span {
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .workshop-content p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1.5% auto 0;
+    max-width: 640px;
+  }
+  .workshop-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+  }
+  
+  .workshop-pattern1 {
+    position: absolute;
+    right: 0;
+    width: 9%;
+    top: 33%;
+    opacity: 0.5;
+    -webkit-filter: brightness(100);
+    filter: brightness(100);
+    z-index: 3;
+    top: 34%;
+  }
+  
+  .workshop-pattern2 {
+    position: absolute;
+    top: 47%;
+    left: 0;
+    width: 7%;
+    opacity: 0.5;
+    z-index: 3;
+    /* -webkit-filter: brightness(100); */
+    filter: brightness(100);
+  }
+  
+  .workshop-pattern3 {
+    position: absolute;
+    filter: brightness(100);
+    opacity: 0.5;
+    top: -73%;
+    left: -30%;
+    width: 24%;
+  }
+  
+  /* start vedio */
+  .workshop-home-container2 {
+    position: relative;
+    z-index: 3;
+    padding: 0 0 6%;
+    background-image: linear-gradient(
+      180deg,
+      rgba(5, 217, 186, 0.1) 0.01%,
+      rgba(5, 218, 186, 0) 100%
+    );
+  }
+  
+  .workshop-vedio-section {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .workshop-vedio-inner-contains {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: -78px;
+    position: relative;
+  }
+  
+  .workshop-vedio-inner-lft {
+    width: 180px;
+  }
+  
+  .work-shop-vedio-card {
+    background-image: linear-gradient(
+      180deg,
+      rgb(232, 223, 223) 0.01%,
+      rgb(255, 255, 255) 100%
+    );
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    box-shadow: 30px 54px 104px rgb(0 0 0 / 5%);
+    margin-top: 15px;
+  }
+  
+  .work-shop-vedio-icon {
+    background: rgba(6, 106, 103, 0.1);
+    line-height: 0;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .work-shop-vedio-icon img {
+    width: 50%;
+  }
+  
+  .work-shop-vedio-card p {
+    font-size: 14px;
+    color: #004747;
+    margin-top: 8%;
+  }
+  
+  .work-shop-vedio-card h6 {
+    margin-top: 5%;
+  }
+  
+  .vedio-center {
+    width: calc(100% - 420px);
+    background: #e0e0e0;
+    padding: 16% 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 30px 54px 104px rgb(0 0 0/5%);
+  }
+  
+  .vedio-center img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .vedio-center span {
+    position: absolute;
+    top: 50%;
+    right: 41%;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .workshop-img-banner {
+    width: 66%;
+    margin: 0 auto;
+  }
+  .workshop-img-banner h6 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  
+  .workshop-img-banner ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-top: 2%;
+  }
+  .workshop-img-banner ul li {
+    margin: 2% 0;
+    width: 18%;
+    margin-left: 2%;
+    background: #fff;
+    border-radius: 20px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+  }
+  .workshop-img-banner ul li img {
+    width: 100% !important;
+  }
+  .workshop-inner-content {
+    text-align: center;
+    margin-top: 9%;
+  }
+  .workshop-inner-content h2 {
+    color: #014949;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .workshop-inner-content-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 3%;
+  }
+  .grid-card {
+    width: calc(50% - 14px);
+    border: 1px solid #21b6e0;
+    background: #fff;
+    margin-top: 28px;
+    margin-left: 12px;
+    padding: 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px;
+    -webkit-box-shadow: 30px 54px 104px rgb(0 0 0 / 5%);
+    box-shadow: 30px 54px 104px rgb(0 0 0 / 5%);
+  }
+  .grid-card h6 {
+    margin-top: 10px;
+  }
+  .grid-card p {
+    padding-right: 12%;
+    margin-top: 14px;
+    opacity: 0.5;
+    color: #014949;
+  }
+  .grid-card span {
+    display: block;
+    background: -webkit-linear-gradient(#21b5e0, #00deb4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  
+  .who-workshop-page {
+    padding: 6% 0;
+    background-image: linear-gradient(to right, #056a67, #004848);
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 60px;
+  }
+  
+  .who-workshop-page:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .who-workshop-page:after {
+    content: "";
+    position: absolute;
+    bottom: 5%;
+    right: -6%;
+    width: 200px;
+    height: 200px;
+    z-index: 6;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+  }
+  .who-workshop-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .who-workshop-container h2 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Gilroy;
+  }
+  .who-workshop-container ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: calc((100% - 60px) / 4);
+    background: #fff;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    color: #004747;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .who-workshop-container ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .who-workshop-container ul li:nth-child(4n + 1) {
+    margin-left: 0;
+  }
+  .who-workshop-container ul li span {
+    line-height: 0;
+    width: 45px;
+    background: rgba(6, 106, 103, 0.1);
+    border-radius: 50%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .who-workshop-container ul li img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 4px 34px rgb(0 0 0 / 20%);
+    box-shadow: 2px 4px 34px rgb(0 0 0 / 20%);
+  }
+  .who-workshop-container ul li b {
+    width: calc(100% - 60px);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .reserved-btn {
+    text-decoration: none;
+    color: #056a67;
+    background-color: white;
+    padding: 16px;
+    border-radius: 5px;
+  }
+  .who-workshop-patten1 {
+    position: absolute;
+    right: 0;
+    width: 9%;
+    top: 33%;
+    opacity: 0.5;
+    -webkit-filter: brightness(100);
+    filter: brightness(100);
+    z-index: 3;
+  }
+  
+  .who-workshop-patten2 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 6%;
+    opacity: 0.5;
+    z-index: 3;
+    -webkit-filter: brightness(100);
+    filter: brightness(100);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .workshop-home-container:before {
+      width: 120px;
+      height: 120px;
+    }
+    .workshop-inner-content-grid {
+      width: 100%;
+      margin-top: 14px;
+      display: block;
+    }
+    .workshop-vedio-inner-lft {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      -webkit-box-align: start;
+      align-items: flex-start;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    .work-shop-vedio-card {
+      width: calc(50% - 10px);
+
+    }
+    .vedio-center {
+      width: 100%;
+      padding: 30% 0;
+      order: -1;
+    }
+    .workshop-img-banner {
+      width: 100%;
+      margin: 20px auto 0;
+    }
+    .workshop-img-banner ul {
+      justify-content: center;
+      margin-right: 45px;
+    }
+    .workshop-img-banner ul li {
+      width: 30%;
+    }
+  
+    /* What will you learn in the workshop? */
+    .workshop-inner-content {
+      margin-top: 80px;
+    }
+    .grid-card {
+      width: 94%;
+      margin-top: 14px;
+    }
+    .workshop-inner-content h2 {
+      font-size: 30px;
+    }
+    .workshop-types {
+      width: 174px !important;
+      height: 78px;
+    }
+    .who-workshop-container ul {
+      padding-left: 0px;
+      margin-left: -4px;
+    }
+    .who-workshop-container ul li:nth-child(4n + 1) {
+      margin-left: 15px;
+    }
+    .workshop-types > span {
+      margin-left: -13px;
+    }
+    .who-workshop-container ul li b {
+      width: calc(100% - 45px);
+      font-size: 13px;
+      padding-right: 5px;
+    }
+    .who-workshop-container h2 {
+      font-size: 45px;
+    }
+    .who-workshop-container p {
+        font-size: 20px;
+    }
+  }

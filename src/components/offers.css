@@ -1,0 +1,141 @@
+.offers-container{
+    position: relative;
+    z-index: 2;
+    padding-bottom: 0%;
+}
+.offers-main-content{
+    box-sizing: border-box;
+}
+.offers-main-content h2{
+    color: #014949;
+    font-size: 48px;
+    font-weight: 800;
+}
+.offers-inner-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    text-align: left;
+    margin-top: 4%;
+    justify-content: center;
+}
+
+.offers-left-content {
+    width: 48%;
+    background: #fff;
+    border-radius: 30px;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.offers-left-content h4{
+    font-size: 36px;
+    font-weight: 800;
+    color: #004848;
+}
+.offers-left-content p.offer-price {
+    color: #004848;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.offers-left-content p.offer-price>sub {
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 30px;
+    position: relative;
+    top: -11px;
+}
+.offers-left-content ul li {
+    position: relative;
+    list-style: none;
+    margin-top: 11px;
+    padding-left: 24px;
+}
+
+.offers-left-content ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 7px;
+    height: 14px;
+    border: solid #014949;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+    45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+    45deg);
+}
+.offers-pay-btn a{
+    width: 100%;
+    display: block;
+}
+.offers-right-content {
+    width: 45%;
+}
+
+.offers-right-content h4:first-child {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left:26px
+}
+.offers-right-content h4 {
+    margin-top: 8%;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left:26px
+}
+
+.offers-right-content ul li {
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 24px;
+}
+
+.offers-right-content ul li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 7px;
+    height: 14px;
+    border: solid #014949;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+    45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+    45deg);
+}
+
+@media screen and (max-width:767px) {
+    .offers-main-content{
+        max-width: 100%;
+        padding: 0 6%;
+        box-sizing: border-box;
+    }
+    .offers-main-content h2{
+        font-size: 30px;
+    }
+    .offers-left-content{
+        width: 100%;
+    }
+    .offers-left-content h4{
+        font-size: 28px;
+    }
+    .offers-right-content{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .offers-right-content h4:first-child {
+        font-size: 30px;
+    }
+    .offers-right-content h4{
+        font-size: 30px;
+    }
+}
