@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-scoot-assignment/static/css/main.4ce9b61d.css",
-    "main.js": "/my-scoot-assignment/static/js/main.6374a30a.js",
-    "static/js/787.86baa1d7.chunk.js": "/my-scoot-assignment/static/js/787.86baa1d7.chunk.js",
+    "main.js": "/my-scoot-assignment/static/js/main.7a6dde2a.js",
+    "static/js/787.92f639a5.chunk.js": "/my-scoot-assignment/static/js/787.92f639a5.chunk.js",
     "index.html": "/my-scoot-assignment/index.html",
     "main.4ce9b61d.css.map": "/my-scoot-assignment/static/css/main.4ce9b61d.css.map",
-    "main.6374a30a.js.map": "/my-scoot-assignment/static/js/main.6374a30a.js.map",
-    "787.86baa1d7.chunk.js.map": "/my-scoot-assignment/static/js/787.86baa1d7.chunk.js.map"
+    "main.7a6dde2a.js.map": "/my-scoot-assignment/static/js/main.7a6dde2a.js.map",
+    "787.92f639a5.chunk.js.map": "/my-scoot-assignment/static/js/787.92f639a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ce9b61d.css",
-    "static/js/main.6374a30a.js"
+    "static/js/main.7a6dde2a.js"
   ]
 }
